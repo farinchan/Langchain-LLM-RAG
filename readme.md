@@ -10,9 +10,9 @@ The AI-ML project aims to develop machine learning models for language analysis 
 
 The following code files are essential for the project:
 
-- `llm_chroma.py`: This file contains the implementation of the LLM Chroma algorithm, which analyzes the chromatic properties of language data.
+- `llm_chroma.py`: This file contains the implementation of the LLM Chroma local-vector-knowladge model
 
-- `llm_pinecone.py`: This file includes the implementation of the LLM Pinecone algorithm, which utilizes the Pinecone library for language modeling tasks.
+- `llm_pinecone.py`: This file includes the implementation of the LLM Pinecone vector-knowladge model
 
 Please refer to these code files for detailed information on their functionalities and usage.
 
@@ -26,7 +26,7 @@ To install and set up the AI-ML project, follow these steps:
 
 3. Install the required dependencies: `pip install -r requirements.txt`
 
-4. Run the setup script: `python setup.py install`
+4. Run the setup script: `python llm_chroma.py` or `python llm_pinecone.py`
 
 5. You're all set! You can now use the LLM algorithms and explore the project's functionalities.
 
